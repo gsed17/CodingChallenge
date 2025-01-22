@@ -30,3 +30,8 @@ console.log("After Interest:", accountBalance);
 
 accountBalance /= 2; // Split Balance
 console.log("After Split:", accountBalance);
+// Task 4 - Customer Messaging
+let customerName = "Alice Johnson";
+let welcomeMessage = "Welcome, " + customerName + "! Thank you for shopping with us.";
+
+console.log(welcomeMessage);
