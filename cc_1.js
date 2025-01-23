@@ -35,3 +35,14 @@ let customerName = "Alice Johnson";
 let welcomeMessage = "Welcome, " + customerName + "! Thank you for shopping with us.";
 
 console.log(welcomeMessage);
+// Task 5 - Access Control
+let isLoggedIn = true;
+
+if (isLoggedIn) {
+    console.log("Access granted. Welcome to the system!");
+} else {
+    console.log("Access denied. Please log in.");
+}
+
+let hasPermission = isLoggedIn && true; // Simulate permission check
+console.log("Has Permission:", hasPermission);
