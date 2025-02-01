@@ -13,3 +13,10 @@ for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i];
 }
 console.log(`Total sales from Erebor's market: $${totalSales} (Gold Coins)`);
+// Task 3: While Loop - Inventory Depletion
+// The Shire's pipeweed supply is running low
+let stock = 10;
+while (stock > 0) {
+    stock--;
+    console.log(`Stock remaining in the Green Dragon: ${stock} barrels`);
+}
