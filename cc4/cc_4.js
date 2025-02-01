@@ -34,3 +34,9 @@ let employee = { name: "Aragorn", position: "Ranger of the North", salary: 75000
 for (let key in employee) {
     console.log(`${key}: ${employee[key]}`);
 }
+// Task 6: For...Of Loop - Product Listings
+// Rivendell's Elven shop catalog
+let products = ["Elven Cloak", "Lembas Bread", "Mithril Shirt"];
+for (let product of products) {
+    console.log(`Item available in Rivendell: ${product}`);
+}
