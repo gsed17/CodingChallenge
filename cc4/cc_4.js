@@ -28,3 +28,9 @@ do {
     responses++;
     console.log(`Survey responses collected: ${responses} travelers`);
 } while (responses < 3);
+/ Task 5: For...In Loop - Employee Information
+// The Fellowship's roster is being reviewed
+let employee = { name: "Aragorn", position: "Ranger of the North", salary: 75000 };
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+}
