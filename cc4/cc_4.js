@@ -18,5 +18,13 @@ console.log(`Total sales from Erebor's market: $${totalSales} (Gold Coins)`);
 let stock = 10;
 while (stock > 0) {
     stock--;
-    console.log(`Stock remaining in the Green Dragon: ${stock} barrels`);
+    console
+    .log(`Stock remaining in the Green Dragon: ${stock} barrels`);
 }
+/ Task 4: Do...While Loop - Customer Survey
+// The Prancing Pony is gathering reviews from travelers
+let responses = 0;
+do {
+    responses++;
+    console.log(`Survey responses collected: ${responses} travelers`);
+} while (responses < 3);
