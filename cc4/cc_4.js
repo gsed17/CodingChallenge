@@ -44,3 +44,9 @@ for (let product of products) {
 // The One Ring must be tracked at every stage of its journey
 let orders = ["Bag End", "Rivendell", "Moria", "Gondor", "Mount Doom"];
 orders.forEach(order => console.log(`Ring passed through: ${order}`));
+// Task 8: Function Declaration - Tax Calculation
+// Gondor's tax collection on imported goods
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+console.log(`Tax on 100 gold coins at 7%: $${calculateTax(100, 0.07)} (Gondorian Gold)`);
