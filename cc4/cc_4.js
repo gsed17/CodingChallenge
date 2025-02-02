@@ -56,3 +56,7 @@ const applyDiscount = function(price, discountPercent) {
     return price * (1 - discountPercent / 100);
 };
 console.log(`Price after 15% Elven discount: $${applyDiscount(200, 15)} (Elven Silver)`);
+// Task 10: Arrow Functions - Loyalty Points
+// The Shire's inn rewards frequent guests
+const calculatePoints = amount => Math.floor(amount / 10);
+console.log(`Loyalty points earned at The Green Dragon on $250 spent: ${calculatePoints(250)} points`);
