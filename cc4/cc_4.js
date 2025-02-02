@@ -50,3 +50,9 @@ function calculateTax(amount, taxRate) {
     return amount * taxRate;
 }
 console.log(`Tax on 100 gold coins at 7%: $${calculateTax(100, 0.07)} (Gondorian Gold)`);
+// Task 9: Function Expressions - Discount Application
+// The elves of Lothlórien offer special discounts for travelers
+const applyDiscount = function(price, discountPercent) {
+    return price * (1 - discountPercent / 100);
+};
+console.log(`Price after 15% Elven discount: $${applyDiscount(200, 15)} (Elven Silver)`);
