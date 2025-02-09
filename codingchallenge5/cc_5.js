@@ -38,3 +38,8 @@ const cases = [3, 0, 5, 0, 7];
 const activeCases = cases.filter(c => c > 0);
 
 console.log(activeCases);
+// Task 6: Reduce Method
+const revenue = [500000, 300000, 200000, 400000]; 
+const totalRevenue = revenue.reduce((sum, amount) => sum + amount, 0);
+
+console.log(`Wayne Enterprises Revenue: $${totalRevenue}`);
