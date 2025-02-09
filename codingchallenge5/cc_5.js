@@ -19,3 +19,12 @@ const heist = {
 };
 
 heist.displayHeistDetails();
+// Task 3: Array Manipulation
+let mostWanted = ["Joker", "Two-Face", "Bane"];
+
+mostWanted.push("Scarecrow");  
+mostWanted.pop();  
+mostWanted.unshift("Riddler");  
+mostWanted.shift();  
+
+console.log(mostWanted);
