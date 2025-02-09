@@ -54,3 +54,9 @@ function calculateGothamTax(amount, taxRate) {
 }
 
 console.log(`Joker’s Tax: $${calculateGothamTax(1000000, 0.15)}`);
+// Task 9: Function Expression
+const applyBlackMarketDiscount = function(price, discount) {
+    return price - (price * discount);
+};
+
+console.log(`Discounted Price: $${applyBlackMarketDiscount(5000, 0.3)}`);
