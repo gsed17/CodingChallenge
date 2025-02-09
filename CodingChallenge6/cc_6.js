@@ -54,3 +54,17 @@ const applyBulkDiscount = (orders, discountFunction) => orders.map(discountFunct
 
 console.log(applyBulkDiscount(orders, amount => amount > 500 ? amount * 0.9 : amount));
 // Expected: [200, 540, 1080, 450, 720]
+
+// Task 7: Closures - Business Expense Tracker
+function createExpenseTracker() {
+    let totalExpenses = 0;
+    return function(expense) {
+        totalExpenses += expense;
+        console.log(`Total Expenses: $${totalExpenses}`);
+    };
+}
+
+// Test Cases
+let tracker = createExpenseTracker();
+tracker(200); // Expected: Total Expenses: $200
+tracker(150); // Expected: Total Expenses: $350
