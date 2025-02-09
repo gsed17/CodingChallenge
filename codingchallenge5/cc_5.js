@@ -43,3 +43,8 @@ const revenue = [500000, 300000, 200000, 400000];
 const totalRevenue = revenue.reduce((sum, amount) => sum + amount, 0);
 
 console.log(`Wayne Enterprises Revenue: $${totalRevenue}`);
+// Task 7: find() Method
+const gothamHeroes = ["Robin", "Nightwing", "Batman", "Batgirl"];
+const foundHero = gothamHeroes.find(hero => hero === "Batman");
+
+console.log(`The Dark Knight is: ${foundHero}`);
