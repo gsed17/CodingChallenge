@@ -60,3 +60,7 @@ const applyBlackMarketDiscount = function(price, discount) {
 };
 
 console.log(`Discounted Price: $${applyBlackMarketDiscount(5000, 0.3)}`);
+// Task 10: Arrow Function
+const calculateEnergyUsage = hoursOn => hoursOn * 500; 
+
+console.log(`Total Bat-Signal Energy Used: ${calculateEnergyUsage(10)} watts`);
