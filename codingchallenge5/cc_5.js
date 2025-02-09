@@ -33,3 +33,8 @@ const speeds = [100, 150, 200];
 const boostedSpeeds = speeds.map(speed => speed * 1.2);
 
 console.log(boostedSpeeds);
+// Task 5: Filter Method
+const cases = [3, 0, 5, 0, 7]; 
+const activeCases = cases.filter(c => c > 0);
+
+console.log(activeCases);
