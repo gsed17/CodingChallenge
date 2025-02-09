@@ -28,3 +28,8 @@ mostWanted.unshift("Riddler");
 mostWanted.shift();  
 
 console.log(mostWanted);
+// Task 4: Map Method
+const speeds = [100, 150, 200]; 
+const boostedSpeeds = speeds.map(speed => speed * 1.2);
+
+console.log(boostedSpeeds);
