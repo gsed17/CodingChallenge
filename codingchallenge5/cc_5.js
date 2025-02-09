@@ -48,3 +48,9 @@ const gothamHeroes = ["Robin", "Nightwing", "Batman", "Batgirl"];
 const foundHero = gothamHeroes.find(hero => hero === "Batman");
 
 console.log(`The Dark Knight is: ${foundHero}`);
+// Task 8: Function Declaration
+function calculateGothamTax(amount, taxRate) {
+    return amount * taxRate;
+}
+
+console.log(`Joker’s Tax: $${calculateGothamTax(1000000, 0.15)}`);
